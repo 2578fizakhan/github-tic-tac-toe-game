@@ -28,10 +28,7 @@
     </div>
 
 </div>
-
-<script src="script.js"></script>
-</body>
-</html>*{
+*{
 margin:0;
 padding:0;
 box-sizing:border-box;
@@ -194,7 +191,8 @@ padding:18px;
 .board{
 gap:10px;
 }
-}const board = document.getElementById("board");
+}
+<const board = document.getElementById("board");
 const turnText = document.getElementById("turn");
 const xScoreEl = document.getElementById("xScore");
 const oScoreEl = document.getElementById("oScore");
@@ -303,4 +301,6 @@ drawScoreEl.textContent = 0;
 resetGame();
 }
 
-createBoard();
+createBoard();script src="script.js"></script>
+</body>
+</html>
